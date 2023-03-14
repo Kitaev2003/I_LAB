@@ -1,0 +1,7 @@
+graph graphname 
+ {
+node [shape=record, color = "red"]; //Описание блоков графа
+		0[label="{0}|{Addres = 0| Data = Hash|Next = 0x5592417bdff0}"];
+		1[label="{1}|{Addres = 1| Data = Table|Next = 0}"];
+		0 -- 1 [arrowhead = diamond];
+}

@@ -1,0 +1,57 @@
+graph graphname 
+ {
+node [shape=record, color = "red"];		//Описание блоков графа
+		0[label="{0}|{Addres = 0| Data = 18|Next = 2| Prev = 0}"];
+		1[label="{1}|{Addres = 1| Data = 20|Next = 3| Prev = 1}"];
+		2[label="{2}|{Addres = 2| Data = 30|Next = 24| Prev = 2}"];
+		3[label="{3}|{Addres = 3| Data = 34|Next = 4| Prev = 3}"];
+		4[label="{4}|{Addres = 4| Data = 40|Next = 5| Prev = 24}"];
+		5[label="{5}|{Addres = 5| Data = 50|Next = 23| Prev = 4}"];
+		6[label="{6}|{Addres = 6| Data = 56|Next = 6| Prev = 5}"];
+		7[label="{7}|{Addres = 7| Data = 60|Next = 21| Prev = 23}"];
+		8[label="{8}|{Addres = 8| Data = 61|Next = 7| Prev = 6}"];
+		9[label="{9}|{Addres = 9| Data = 70|Next = 22| Prev = 21}"];
+		10[label="{10}|{Addres = 10| Data = 75|Next = 8| Prev = 7}"];
+		11[label="{11}|{Addres = 11| Data = 80|Next = 9| Prev = 22}"];
+		12[label="{12}|{Addres = 12| Data = 90|Next = 10| Prev = 8}"];
+		13[label="{13}|{Addres = 13| Data = 100|Next = 11| Prev = 9}"];
+		14[label="{14}|{Addres = 14| Data = 110|Next = 12| Prev = 10}"];
+		15[label="{15}|{Addres = 15| Data = 120|Next = 13| Prev = 11}"];
+		16[label="{16}|{Addres = 16| Data = 130|Next = 14| Prev = 12}"];
+		17[label="{17}|{Addres = 17| Data = 140|Next = 15| Prev = 13}"];
+		18[label="{18}|{Addres = 18| Data = 150|Next = 16| Prev = 14}"];
+		19[label="{19}|{Addres = 19| Data = 160|Next = 18| Prev = 15}"];
+		20[label="{20}|{Addres = 20| Data = 666|Next = 17| Prev = 16}"];
+		21[label="{21}|{Addres = 21| Data = 170|Next = 19| Prev = 18}"];
+		22[label="{22}|{Addres = 22| Data = 190|Next = 20| Prev = 17}"];
+		23[label="{23}|{Addres = 23| Data = 200|Next = 2| Prev = 19}"];
+		24[label="{24}|{Addres = 24| Data = 20|Next = 3| Prev = 1}"];
+
+
+//Связь блоков
+		0 -- 1 [arrowhead = diamond]; 
+		1 -- 2 [arrowhead = diamond]; 
+		2 -- 3 [arrowhead = diamond]; 
+		3 -- 4 [arrowhead = diamond]; 
+		4 -- 5 [arrowhead = diamond]; 
+		5 -- 6 [arrowhead = diamond]; 
+		6 -- 7 [arrowhead = diamond]; 
+		7 -- 8 [arrowhead = diamond]; 
+		8 -- 9 [arrowhead = diamond]; 
+		9 -- 10 [arrowhead = diamond]; 
+		10 -- 11 [arrowhead = diamond]; 
+		11 -- 12 [arrowhead = diamond]; 
+		12 -- 13 [arrowhead = diamond]; 
+		13 -- 14 [arrowhead = diamond]; 
+		14 -- 15 [arrowhead = diamond]; 
+		15 -- 16 [arrowhead = diamond]; 
+		16 -- 17 [arrowhead = diamond]; 
+		17 -- 18 [arrowhead = diamond]; 
+		18 -- 19 [arrowhead = diamond]; 
+		19 -- 20 [arrowhead = diamond]; 
+		20 -- 21 [arrowhead = diamond]; 
+		21 -- 22 [arrowhead = diamond]; 
+		22 -- 23 [arrowhead = diamond]; 
+		23 -- 24 [arrowhead = diamond]; 
+		24 -- 25 [arrowhead = diamond]; 
+}

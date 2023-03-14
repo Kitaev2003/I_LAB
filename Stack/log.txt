@@ -1,0 +1,4 @@
+Protecting the beginning of the array: DEDF00D
+Protecting the end of the array: DEDF00D
+Protecting the beginning of the stack: BADDCAFE
+Protecting the end of the stack: BADDCAFE
